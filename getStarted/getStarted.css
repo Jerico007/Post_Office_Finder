@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #575a85;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5%;
+  color: white;
+}
+
+
+#get-started{
+  color: white;
+  background-color: #575a85;
+  border: 1px solid white;
+  padding: 0.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
