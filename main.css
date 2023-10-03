@@ -146,3 +146,21 @@ b {
     font-size: 22px;
     color: #B8BCCC;
 }
+
+@media (max-width: 1070px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 790px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 560px) {
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
