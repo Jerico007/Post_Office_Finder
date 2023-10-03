@@ -16,7 +16,7 @@ function onSuccess(position)
     localStorage.setItem("redirected",true);
     let link = document.createElement("a");
 
-    link.href = "/getStarted/index.html";
+    link.href = "./getStarted/index.html";
 
     link.click();
 }
