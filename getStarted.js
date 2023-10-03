@@ -21,7 +21,7 @@ async function getIpLocation(url){
 }
 
 btn.addEventListener("click",()=>{
-   window.location.href = "./mainPage/index.html"
+   window.location.href = "main.html"
 })
 
 
